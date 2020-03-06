@@ -4,15 +4,47 @@
   <title>Meditators Group</title>
   <style type="text/css">
     * {
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      padding: 0;
+      margin: 0;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
       font-weight: 300;
     }
-    h1 { text-align: center; }
-    p { text-align: center; }
+    html, body, article {
+      width: 100%;
+      height: 100%;
+    }
+    article {
+      background-image: url('assets/bg.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1, p {
+      color: #dedede;
+      text-align: center;
+      padding: 30px;
+      text-shadow:
+          2px 2px black,
+          0 0 10px black;
+    }
+    h1 {
+      font-size: 6em;
+    }
+    p {
+      font-size: 3em;
+    }
   </style>
 </head>
 <body>
-  <h1>Meditators Group</h1>
-  <p>Meditating in groups can enhance your experience. We are here to help to capitalise on this phenomena.</p>
+  <article>
+    <h1>Meditators Group</h1>
+    <p>Meditating in groups can enhance your experience. We are here to help to capitalise on this phenomena.</p>
+  </article>
 </body>
 </html>
